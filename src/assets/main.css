@@ -1,5 +1,9 @@
 @import './base.css';
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -9,6 +13,12 @@ main.content,
 footer.content {
   width: 100%;
   max-width: 1200px;
-  padding: 0 32px;
+  padding-left: 32px;
+  padding-right: 32px;
   margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100;
 }

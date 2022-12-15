@@ -1,0 +1,17 @@
+$desktop: 1440px;
+$laptop: 1200px;
+$ipad: 1024px;
+$tablet: 768px;
+$phablet: 540px;
+
+@mixin mqTouch {
+    @media screen and (max-width: calc(#{$laptop} - 1px)) {
+        @content;
+    }
+}
+
+@mixin mqPhones {
+    @media screen and (max-width: calc(#{$tablet} - 1px)) {
+        @content;
+    }
+}
