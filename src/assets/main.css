@@ -1,0 +1,14 @@
+@import './base.css';
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header.content,
+main.content,
+footer.content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 32px;
+  margin: 0 auto;
+}
